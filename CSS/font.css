@@ -1,0 +1,74 @@
+/* font-google */
+
+
+@font-face{
+    font-family: 'NotoSansTC-Regular', sans-serif;
+    src: url("../fonts/NotoSansTC-Regular.otf");
+    font-style: normal;
+    font-weight: normal;
+
+}
+@font-face{
+    font-family: 'NotoSansTC-Medium', sans-serif;
+    src: url("../fonts/NotoSansTC-Medium.otf");
+    font-style: normal;
+    font-weight: normal;
+
+}
+@font-face{
+    font-family: 'NotoSansTC-Bold', sans-serif;
+    src: url("../fonts/NotoSansTC-Bold.otf");
+    font-style: normal;
+    font-weight: normal;
+
+}
+@font-face {
+    font-family: "librebaskerville-regular";
+    src: url("../fonts/librebaskerville/librebaskerville-regular-webfont.woff2") format("woff2"), url("../fonts/librebaskerville/librebaskerville-regular-webfont.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "librebaskerville-italic";
+    src: url("../fonts/librebaskerville/librebaskerville-italic-webfont.woff2") format("woff2"), url("../fonts/librebaskerville/librebaskerville-italic-webfont.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "librebaskerville-bold";
+    src: url("../fonts/librebaskerville/librebaskerville-bold-webfont.woff2") format("woff2"), url("../fonts/librebaskerville/librebaskerville-bold-webfont.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: "Montserrat-Bold",sans-serif;
+    src: url("../fonts/Montserrat-Bold.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family:"Montserrat-SemiBold",sans-serif ;
+    src: url("../fonts/Montserrat-SemiBold.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: "Montserrat-Regular",sans-serif;
+    src: url("../fonts/Montserrat-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Montserrat-ExtraBold',sans-serif;
+    src: url("../fonts/Montserrat-ExtraBold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: "NotoSansTC-Medium",sans-serif;
+    src: url("../fonts/NotoSansTC-Medium.otf");
+    font-weight: normal;
+    font-style: normal;
+}
