@@ -5,6 +5,7 @@
 }
 html{
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 @media only screen and ( max-width: 400px){
     html{
@@ -247,7 +248,7 @@ html.ss-loaded .home-content__main {
     font-size: 1.4rem;
     text-transform: uppercase;
     letter-spacing: .2rem;
-    color: rgb(255, 240, 243);
+    color: rgb(236, 235, 235);
     -webkit-transition: all 0.3s ease-in-out ;
     transition: all 0.3s ease-in-out;
 }
@@ -352,7 +353,7 @@ header-nav-wrap
      display: block;
      line-height: 72px; 
      text-decoration: none;
-     color: #003300; 
+     color: black; 
 }
 .header-nav li.current a{
     color: rgb(212, 28, 28);
@@ -436,6 +437,9 @@ header
     background-color: transparent;
     position: relative;
     display: table;
+    background-image: url("https://www.got-it.ai/assets/images/update-2020/may/home-cover-bg-part-1-613c7ee7a6.svg"), url("https://www.got-it.ai/assets/images/update-2020/may/home-cover-bg-part-2-52691689d6.svg"), url("https://www.got-it.ai/assets/images/update-2020/may/home-cover-bg-part-3-810e2ee64e.svg");
+    background-position: left center, top right, center center;
+    background-repeat: no-repeat;
 }
 
 /* home content */
@@ -533,7 +537,7 @@ header
     width: 50rem;
     height: 50rem;
     border-radius: 100%;
-    box-shadow: 0 0 0 3.9rem #3366ff;
+    box-shadow: 0 0 0 3.9rem #338eff6e;
 }
 .home-content__social{
     position: absolute;
@@ -625,7 +629,7 @@ header
     .home-content__user img{
         width: 40rem;
         height: 40rem;
-        box-shadow: 0 0 0 3rem #3366ff;
+        box-shadow: 0 0 0 3rem #338eff6e;
     }
     .home-content__social{
         left: -1rem;
@@ -652,7 +656,7 @@ header
         display: inline-block;
         width: 35rem;
         height: 35rem;
-        box-shadow: 0 0 0 2.5rem #3366ff;
+        box-shadow: 0 0 0 2.5rem  #338eff6e;
     }
     .introduction > h1, .introduction > h3, .introduction > span{
         text-align: center;
@@ -719,7 +723,7 @@ header
     .home-content__user img{
         width: 25rem;
         height: 25rem;
-         box-shadow: 0 0 0 1.5rem #3366ff;
+         box-shadow: 0 0 0 1.5rem  #338eff6e;
     }
     .home-content h1{
         font-size: 3rem;
@@ -747,7 +751,7 @@ header
     .home-content__user img{
         width: 25rem;
         height: 25rem;
-         box-shadow: 0 0 0 1.5rem #3366ff;
+         box-shadow: 0 0 0 1.33rem #338eff6e;
     }
     .home-content h1{
         font-size: 3rem;
@@ -778,6 +782,7 @@ header
     padding-bottom: 1rem;
     background-color: white;
     position: relative;
+    background-color: #f6f8fc;
 }
 p.lead {
     color: #0D0A0B;
@@ -1085,7 +1090,7 @@ p.lead {
 
 .s-contact{
     background-color: #151515;
-    background-image: url("../image/user.jpg");
+    background-image: url("../image/user_1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center,center;
@@ -1167,7 +1172,18 @@ blockquote > cite{
     }
 }
 
+footer{
+    background-color:#000000eb;
+    text-align: center;
+    padding: 1.5rem 4.2rem;
+    font-family: "Montserrat-Regular",sans-serif;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.2);
+    font-weight: 500;
 
+
+
+}
 
 
 

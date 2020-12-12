@@ -43,8 +43,12 @@ $( document ).ready(function() {
      });
 
 // # Move header
+  var text_color_1 = $('.header-nav li a')[1];
+  var text_color_2 = $('.header-nav li a')[2];
+  var text_color_3 = $('.header-nav li a')[3];
+ 
 
-
+  
   var hero =$('.page-hero'),
       hdr = $('header'),
       triggerHeight = hero.outerHeight()-200;
@@ -54,11 +58,17 @@ $( document ).ready(function() {
         
         if(loc > triggerHeight) {
           hdr.addClass('sticky');
+          text_color_1.style.color = "white";
+          text_color_2.style.color = "white";
+          text_color_3.style.color = "white";
           console.log('sticky');
         }
      
         else{
           hdr.removeClass('sticky');
+          text_color_1.style.color = "black";
+          text_color_2.style.color = "black";
+          text_color_3.style.color = "black";
           console.log('remove sticky');
         }
 
@@ -81,12 +91,14 @@ $( document ).ready(function() {
       })
 
 });
+// smooth Scrolling
+
 
 
 
     // # animation text
 setTimeout(function(){
-    var element_1 = document.getElementsByClassName("text-animation_1")[0];
+    var element_1 = $(".text-animation_1")[0];
     element_1.style.opacity = '1';
     // replace each char with <span class="letter">{char} </span>
     
@@ -104,7 +116,7 @@ setTimeout(function(){
     });
   },2000)
 setTimeout(function(){
-    var element_2 = document.getElementsByClassName("text-animation_2")[0];
+    var element_2 = $(".text-animation_2")[0];
     element_2.style.opacity = '1';
     element_2.innerHTML = element_2.textContent.replace(/\S/g,'<h1 class="letter">$&</h1>');
     
