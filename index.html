@@ -24,7 +24,7 @@
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body id="top">
-
+    <div id="loading"></div>
     <!-- s-header -->
     <header class="s-header">
         <div class="overlay"></div>
@@ -323,6 +323,16 @@
 <!-- ==================================================================== -->
     <script src="./Js/jquery-3.5.1.min.js"></script>
     <script src="./Js/main.js"></script>
+    <!-- Loading -->
+
+    <script>
+
+        var preloader = document.getElementById('loading');
+        setTimeout(function(){
+            preloader.style.display= 'none';
+        },3000)
+        
+    </script>
 </body>
 
 

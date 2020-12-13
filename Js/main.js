@@ -96,6 +96,7 @@ $( document ).ready(function() {
 
 
 
+
     // # animation text
 setTimeout(function(){
     var element_1 = $(".text-animation_1")[0];
