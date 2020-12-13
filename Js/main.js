@@ -115,7 +115,7 @@ setTimeout(function(){
       easing:"easeOutExpo",
       delay:(elem, index) => index*150
     });
-  },4000)
+  },2000)
 setTimeout(function(){
     var element_2 = $(".text-animation_2")[0];
     element_2.style.opacity = '1';
@@ -131,6 +131,6 @@ setTimeout(function(){
       easing:"easeOutExpo",
       delay:(elem, index) => index*150
     })
-  },6000)
+  },4500)
 
     
