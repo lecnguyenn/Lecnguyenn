@@ -6,7 +6,7 @@ $("html").addClass('ss-preload');
 
 $(window).on('load',  function(){
   $("#loader").fadeOut("slow", function(){
-    $("#preloader"). delay(200).faceOut("slow");
+    $("#preloader"). delay(300).faceOut("slow");
   });
 
   $("html").remove('ss-preload');
