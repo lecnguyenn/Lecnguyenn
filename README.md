@@ -2,7 +2,7 @@
 😄I’m Nguyen <br/>
 🔭I’m currently working on PTIT  <br/>
 🌱 I’m currently learning FrontEnd  <br/>
- 📫 Contact me: 0392854780  <br/>
+
 <!--
 **lecnguyenn/Lecnguyenn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
