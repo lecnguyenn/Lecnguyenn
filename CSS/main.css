@@ -196,7 +196,7 @@ html.ss-loaded .home-content__main {
  .s-header.sticky{
     position: fixed;
     top: 0;
-    background-color: #3363ff !important;
+    background-color: #87CEFA !important;
     visibility: hidden;
     opacity: 0;
     z-index: 600;
