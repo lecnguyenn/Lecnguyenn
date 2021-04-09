@@ -1,6 +1,5 @@
 ### Hi there 👋
 😄I’m Nguyen <br/>
-🔭I’m currently working on PTIT  <br/>
 🌱 I’m currently learning FrontEnd  <br/>
 
 <!--
