@@ -538,7 +538,7 @@ header
     width: 50rem;
     height: 50rem;
     border-radius: 100%;
-    box-shadow: 0 0 0 3.9rem #338eff6e;
+    box-shadow: 0 0 0 3.9rem #4b53bc;
 }
 .home-content__social{
     position: absolute;
@@ -630,7 +630,7 @@ header
     .home-content__user img{
         width: 40rem;
         height: 40rem;
-        box-shadow: 0 0 0 3rem #338eff6e;
+        box-shadow: 0 0 0 3rem #4b53bc;
     }
     .home-content__social{
         left: -1rem;
@@ -657,7 +657,7 @@ header
         display: inline-block;
         width: 35rem;
         height: 35rem;
-        box-shadow: 0 0 0 2.5rem  #338eff6e;
+        box-shadow: 0 0 0 2.5rem  #4b53bc;
     }
     .introduction > h1, .introduction > h3, .introduction > span{
         text-align: center;
