@@ -300,7 +300,7 @@ html.ss-loaded .home-content__main {
 }
 
 .header-menu-toggle.is-clicked span{
-    background-color:#4b53bc;
+    background-color: #4b53bc;
     -webkit-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
 }
