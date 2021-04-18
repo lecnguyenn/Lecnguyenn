@@ -724,7 +724,7 @@ header
     .home-content__user img{
         width: 25rem;
         height: 25rem;
-         box-shadow: 0 0 0 1.5rem  #338eff6e;
+         box-shadow: 0 0 0 1.5rem  #4b53bc;
     }
     .home-content h1{
         font-size: 3rem;
@@ -752,7 +752,7 @@ header
     .home-content__user img{
         width: 25rem;
         height: 25rem;
-         box-shadow: 0 0 0 1.33rem #338eff6e;
+         box-shadow: 0 0 0 1.33rem #4b53bc;
     }
     .home-content h1{
         font-size: 3rem;
