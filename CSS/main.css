@@ -300,7 +300,7 @@ html.ss-loaded .home-content__main {
 }
 
 .header-menu-toggle.is-clicked span{
-    background-color: #87CEFA;
+    background-color: #4b53bc;
     -webkit-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
 }
@@ -376,7 +376,7 @@ header
         right: 0px;
         top: 0;
         left: 0;
-        background-color:#4b53bc;
+        background-color: #4b53b;
         padding: 120px 40px 21px;
     }
     .header-nav-wrap .header-nav{
