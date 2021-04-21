@@ -1091,7 +1091,7 @@ p.lead {
 
 .s-contact{
     background-color: #151515;
-    background-image: url("../image/user_1.jpg");
+/*     background-image: url("../image/user_1.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center,center;
