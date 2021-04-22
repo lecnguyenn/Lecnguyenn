@@ -17,7 +17,6 @@ $(window).on('load',  function(){
 
 
 
-
 $( document ).ready(function() {
 
     var toggleButton = $('.header-menu-toggle'),
@@ -61,7 +60,6 @@ $( document ).ready(function() {
           text_color_1.style.color = "white";
           text_color_2.style.color = "white";
           text_color_3.style.color = "white";
-          console.log('sticky');
         }
      
         else{
@@ -69,26 +67,53 @@ $( document ).ready(function() {
           text_color_1.style.color = "black";
           text_color_2.style.color = "black";
           text_color_3.style.color = "black";
-          console.log('remove sticky');
+         
         }
 
         if(loc > triggerHeight + 20){
           hdr.addClass('offset');
-          console.log('offset');
+         
         }
         else{
           hdr.removeClass('offset');
-          console.log(' remove offset');
+          
         }
         if(loc > triggerHeight + 100){
           hdr.addClass('scrolling');
-          console.log('scrolling');
+          
         }
         else{
           hdr.removeClass('scrolling');
-          console.log('remove scrolling');
+    
         }
       })
+
+        var sections = $(".target-section"),
+            navigation_links = $(".header-nav li a");
+
+        sections.waypoint({
+
+            handler: function(direction) {
+
+                var active_section;
+
+                active_section = $('section#' + this.element.id);
+
+                if (direction === "up") active_section = active_section.prevAll(".target-section").first();
+
+                var active_link = $('.header-nav li a[href="#' + active_section.attr("id") + '"]');
+
+                navigation_links.parent().removeClass("current");
+                active_link.parent().addClass("current");
+
+            },
+
+            offset: '25%'
+
+        });
+        
+    
+        
 
 });
 // smooth Scrolling

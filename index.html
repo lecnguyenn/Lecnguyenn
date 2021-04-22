@@ -22,6 +22,7 @@
  <!--link anime.js  -->
    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 
 </head>
 <body id="top">
     <!-- s-header -->
@@ -94,7 +95,7 @@
 
 
     <!-- about -->
-    <section id="about" class="s-about">
+    <section id="about" class="s-about target-section" >
 
         <div class="row section-intro has-bottom-sep ">
             <div class="col-full text-center">
@@ -257,14 +258,47 @@
 
     <!-- s-project-->
 
-    <section id="project" class=" s-project">
+    <section id="project" class=" s-project target-section">
+            <div class="row section-intro has-bottom-sep">
+                <div class="col-full">
+                    <h3>Portfolio</h3>
+                    <h1>See My Latest Projects</h1>
 
+
+                    <p class="lead">I don't have much things to show here.But i will try my best to fill it soon</p>
+                </div>
+            </div>
+        
+            <div class="row masonry-wrap">
+                <div class="masonry">
+                    <div class="masonry_brick">
+                        <div class="item-folio">
+                            <div class="item-folio_thumb">
+                                <a href="https://friendy-cba7f.web.app/" class="thump-link" title="Friendy" data-size="1124x822">
+                                <img src="./image/Friendy.png" alt="">
+                                <span class="shawdow-overlay"></span>
+                                </a>
+                            </div>
+                            <div class="item-folio_text">
+                                <h3 class="item-folio_title">
+                                    Friendy - WebChat
+                                </h3>
+                                <p class="item-folio_cat">
+                                    WebChat
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </section>
 
 
+    
+
 
     <!-- s-contact -->
-    <section  id="contact" class="s-contact">
+    <section  id="contact" class="s-contact target-section">
         <div class="overlay"></div>
         <div class="row section-intro">
 
@@ -318,8 +352,10 @@
 
 <!-- JavaScript -->
 <!-- ==================================================================== -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
     <script src="./Js/jquery-3.5.1.min.js"></script>
     <script src="./Js/main.js"></script>
+   
    
 
 
