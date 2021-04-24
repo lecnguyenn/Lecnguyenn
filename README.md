@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 <h3 align="center">Welcone to my Github</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=lecnguyenn&label=Profile%20views&color=0e75b6&style=flat" alt="lecnguyenn" /> </p>
-https://github-readme-stats.vercel.app/api?username=lecnguyenn
+<img src="https://github-readme-stats.vercel.app/api?username=lecnguyenn" />
 
 
 
