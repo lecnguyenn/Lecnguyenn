@@ -1,6 +1,4 @@
-### Hi there 👋
-✨ Welcome to my GitHub ✨ <br/>
-🌱 I’m currently learning FrontEnd  <br/>
+
 
 <!--
 **lecnguyenn/Lecnguyenn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
