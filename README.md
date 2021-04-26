@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: No lover
 -->
 <h1 align="center">Hi 👋, I'm Nguyen</h1>
-<h3 align="center">Welcone to my Github</h3>
+<h3 align="center">Welcome to my Github</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=lecnguyenn&label=Profile%20views&color=0e75b6&style=flat" alt="lecnguyenn" /> </p>
 <img src="https://github-readme-stats.vercel.app/api?username=lecnguyenn" />
